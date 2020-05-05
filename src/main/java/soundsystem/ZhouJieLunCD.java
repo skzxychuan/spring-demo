@@ -8,7 +8,7 @@ public class ZhouJieLunCD implements CompactDisc {
     private String artist = "周杰伦";
 
     public ZhouJieLunCD() {
-        System.out.println("ZhouJieLunCD()========");
+        System.out.println("构造CD========");
         System.out.println("CD歌曲：" + title + "\n" + "演唱: " + artist);
     }
 
